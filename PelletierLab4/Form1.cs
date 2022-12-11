@@ -199,7 +199,7 @@ namespace PelletierLab4
                         break;
 
                     default:
-                        break
+                        break;
                 } //end switch
 
                 grpTripInformation.Show();
