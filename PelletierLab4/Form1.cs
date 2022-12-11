@@ -107,7 +107,7 @@ namespace PelletierLab4
         private void btnBook_Click(object sender, EventArgs e)
         {
 
-            const int MIN = 10, MAX = 10;
+            const int MIN = 1, MAX = 10;
             double price, total;
             string location;
             
