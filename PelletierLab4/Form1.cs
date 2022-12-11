@@ -172,7 +172,7 @@ namespace PelletierLab4
                      "\n\n" + "People: " + number.ToString("d2") +
                      "\n" + "Location: " + location +
                      "\n" + "Flight included" +
-                     "\n+ "Price : " + total.ToString("C");
+                     "\n" + "Price : " + total.ToString("C");
                     } //end if
 
                 if (radCash.Checked == true && chkFlightIncluded.Checked == true)
