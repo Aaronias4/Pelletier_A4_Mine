@@ -107,7 +107,7 @@ namespace PelletierLab4
         private void btnBook_Click(object sender, EventArgs e)
         {
 
-            const int MIN = 10, MAX = 10;
+            const int MIN = 1, MAX = 10;
             double price, total;
             string location;
             
@@ -172,7 +172,7 @@ namespace PelletierLab4
                      "\n\n" + "People: " + number.ToString("d2") +
                      "\n" + "Location: " + location +
                      "\n" + "Flight included" +
-                     "\n+ "Price : " + total.ToString("C");
+                     "\n" + "Price : " + total.ToString("C");
                     } //end if
 
                 if (radCash.Checked == true && chkFlightIncluded.Checked == true)
@@ -199,7 +199,7 @@ namespace PelletierLab4
                         break;
 
                     default:
-                        break
+                        break;
                 } //end switch
 
                 grpTripInformation.Show();
